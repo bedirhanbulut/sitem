@@ -1,0 +1,306 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+.container{
+    height: 937px;
+    margin: auto;
+    width: 1280px;
+    border: 0px solid white;
+}
+
+body{
+    background: #252839;
+}
+
+header{
+  position: relative;
+}
+
+header h1{
+    background: linear-gradient(to top, #ffe838, #fd54bf);
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    padding: 1rem;
+    user-select: none;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+header h2{
+    margin-bottom: 180px;
+    font-family: 'Great Vibes', cursive;
+    color: #F5FFFA;
+    font-size: 58px;
+    text-align: center;
+
+}
+
+.contact{
+  position: relative;
+  background-color: #252839;
+}
+
+form{
+   width: 70%;
+   margin: 0 auto;
+}
+
+form label{
+   font-size: 1.5rem;
+   color: white;
+}
+
+input,
+select,
+textarea{
+   width: 100%;
+   padding: 1rem;
+   margin-bottom: 5px;
+   border: none;
+   outline-color: #fd57bf;
+}
+
+input[type="submit"]{
+   width: initial;
+   background-color: #fd57bf;
+   color: #eee;
+   padding: 1rem 2rem;
+   border-radius: .8rem;
+   cursor: pointer;
+   transition: background-color 650ms;
+}
+
+input[type="submit"]:hover{
+   color: darkblue;
+   background-color: #ffe838;
+}
+
+.section-heading{
+  text-align: center;
+  margin-bottom: -4rem;
+}
+
+.section-heading h1{
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.section-heading h1::before,
+.section-heading h1::after{
+  content: "";
+  position: absolute;
+  bottom: -.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.section-heading h1::before{
+  width: 10rem;
+  height: 3px;
+  border-radius: .8rem;
+}
+
+.section-heading::after{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1rem;
+}
+
+.section-heading h6{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;  
+  color: white;
+  position: relative;
+  bottom: 47px;
+}
+
+.section-heading h1{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.section-hakkimda{
+  position: relative;
+}
+
+.section-hakkimda img{
+  height: 439px;
+  width: 540px;
+}
+
+.section-heading-hakkimda{
+  position: relative;
+  margin-bottom: -4rem;
+  left: 294px;
+  text-align: center;
+  top: 170px;
+}
+
+.section-heading-hakkimda h1{
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.section-heading-hakkimda h1::before,
+.section-heading-hakkimda h1::after{
+  content: "";
+  position: absolute;
+  bottom: -.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.section-heading-hakkimda h1::before{
+  width: 10rem;
+  height: 3px;
+  border-radius: .8rem;
+}
+
+.section-heading-hakkimda::after{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1rem;
+}
+
+.section-heading-hakkimda h6{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;  
+  color: white;
+  position: relative;
+  bottom: 47px;
+}
+
+.section-heading-hakkimda h1{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.hakkimda p{
+  position: relative;
+  left: 647px;
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  bottom: 232px;
+}
+
+
+
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  background-color: #16162d;
+  padding: 1rem 0;
+  position: relative;
+  top: 86rem;
+}
+
+.copyright p{
+  font-size: 1.4rem;
+}
+
+button a{
+  text-decoration:none;
+  color:white;
+}
+
+button{
+  position: relative;
+    bottom: 144px;
+    left: 555px;
+    font-size: 32px;
+    background: linear-gradient(to top, #ffe838, #fd54bf);
+}
+
