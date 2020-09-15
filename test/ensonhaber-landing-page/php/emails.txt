@@ -1,0 +1,25 @@
+"Email Address",EMAIL_TYPE
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+efsdfs@sdf.com,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html
+,html

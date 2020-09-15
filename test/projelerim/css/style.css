@@ -1,0 +1,129 @@
+/* Import Basic Files
+---------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,700);
+
+
+@import url(../js/plugins/uikit/uikit.css);
+
+
+
+
+/* 1.3 Loader
+---------------------------------------------------------------------------*/
+
+
+
+
+.section-title {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.section-title h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 100;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 1.5 Section Description
+---------------------------------------------------------------------------*/
+.section-desc {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto 65px;
+}
+.section-desc p {
+    color: #9ea6a4;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   15. Recent Posts Section
+========================================================================== */
+/* 15.1 Wrapper
+---------------------------------------------------------------------------*/
+#recent-section {
+    margin: 0;
+    width: 100%;
+    padding: 35px 0 70px;
+    background-color: #ffffff;
+}
+
+/* 15.2 Mini Post
+---------------------------------------------------------------------------*/
+/* 15.2.1 Wrapper
+---------------------------------------------------------------------------*/
+.mini-post {
+    width: 100%;
+    overflow: hidden;
+    max-width: 263px;
+    text-align: center;
+    margin: 0 auto 30px;
+    padding-bottom: 20px;
+    background-color: #f5f7f9;
+
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.mini-post a {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 15.2.2 Image
+---------------------------------------------------------------------------*/
+.mini-post .post-image { width: 100%; }
+.mini-post .post-image img { width: 100%; }
+
+/* 15.2.3 Title
+---------------------------------------------------------------------------*/
+.mini-post .post-title { margin-top: 20px; }
+.mini-post .post-title h2 { margin-bottom: 10px; }
+.mini-post .post-title h2 a {
+    color: #2d373c;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.mini-post .post-title a:hover { color: #ff3131; }
+
+/* 15.2.4 Date
+---------------------------------------------------------------------------*/
+.mini-post .post-date { margin-bottom: 10px; }
+.mini-post .post-date h4 {
+    color: #76889a;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 15.2.5 Content
+---------------------------------------------------------------------------*/
+.mini-post .post-content {
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+.post-content p {
+    color: #76889a;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+

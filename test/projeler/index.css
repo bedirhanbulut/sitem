@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+    background: #00ffff;
+    border: 1px solid white;
+    width: 1500px;
+    height: 100%;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 60px;
+    color: #e5f9ff;
+    display: inline-block;
+}
+
+header h3{
+    text-align: center;
+    font-size: 30px;
+    color: #e5f9ff;
+    bottom: 51px;
+    position: relative;
+}
+
+.projeler{
+    position: relative;
+    left: 10px;
+}
+
+.proje{
+    display: inline-block;
+    display: flex;
+    background: #00c0fa;
+    border: 1px solid white;
+    width: 400px;
+    height: 600px;
+}
+
+.proje .sure{
+    position: relative;
+    bottom: 52px;
+    right: 227px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.proje .bilgi p{
+    right: 271px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.proje button{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    right: 295px;
+    top: 419px;
+}
+
+.proje img{
+    width: 400px;
+    height: 300px;
+}
+
+.proje p,button{
+    position: relative;
+    top: 346px;
+}
+
+.proje button:hover{
+    background: blue;
+}
+

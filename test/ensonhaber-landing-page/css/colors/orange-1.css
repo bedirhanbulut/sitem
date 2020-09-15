@@ -1,0 +1,51 @@
+/*
+Template Name: APP ON
+Description: Responsive HTML5 / CSS3 Landing Page Template
+Version: 1.0
+Author: Jthemes
+
+
+Notes:
+    Color:            #e47911
+
+
+*/
+
+.feature-box-style-2 .feature-icon,
+.price-table.featured .table-price h1,
+.price-table:hover .table-price h1,
+.mini-post .post-title a:hover,
+.post .post-title a:hover,
+.post .post-author:hover a,
+.post .post-comment:hover a,
+.post .post-views:hover a,
+.post .post-author:hover:after,
+.post .post-comment:hover:after,
+.post .post-views:hover:after,
+.post .post-comment:hover span:first-child:after,
+.post .post-views:hover span:first-child:after,
+.widget.category .widget-content ul li a:hover,
+.post-comments .comment-flag i,
+.post-comments .comment-replay:hover {
+    color: #e47911;
+}
+
+
+#team-section .ui-slider-tabs-list li a:after,
+.price-table .table-price,
+.price-table.featured,
+.price-table:hover,
+.btn-nesto-home {
+    background-color: #e47911;
+}
+
+.faq-tabs ul.faq-tabs-btns li a:hover,
+.faq-tabs ul.faq-tabs-btns li a:focus,
+.faq-tabs ul.faq-tabs-btns li a.active {
+    background-color: #e47911;
+
+    -webkit-border: 1px solid #e47911;
+       -moz-border: 1px solid #e47911;
+         -o-border: 1px solid #e47911;
+            border: 1px solid #e47911;
+}
