@@ -1,0 +1,119 @@
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+    height: 800px;
+}
+
+.ust .ilkfoto{
+    width: 310px;
+    height: 430px;
+    border-radius: 25px;
+}
+
+.ust{
+    background: #F0F0F0;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.yanfoto{
+    position: relative;
+    background: #ffffff;
+    border-radius:25px;
+    border:2px solid #ffffff;
+    width: 207px;
+    height: 290px;
+    display: inline-block;
+    left: 350px;
+    bottom: 290px;
+}
+
+.yanfoto img{
+
+    height: 290px;
+    width: 207px;
+    border-radius: 25px;
+}
+
+.bilgi{
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    bottom: 550px;
+    left: 690px;
+}
+
+.bilgi p{
+    position: relative;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bilgi .fiyat{
+    color: #FF7851;
+    left: 360px;
+    bottom: 210px;
+}
+
+.bilgi .ad{
+    left: 360px;
+    bottom: 210px;
+}
+
+.chat{
+    right: 30px;
+    bottom: 300px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.soru{
+    margin: 0 auto;
+    position: relative;
+    background: #FF7851;
+    border-radius:25px;
+    height: 40px;
+    width: 210px;
+}
+
+.soru p{
+    padding-top: 9px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.chat .konusma{
+    border-radius: 25px;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.mesaj{
+    margin-left: 30px;
+}
+
+.mesaj input{
+    border: 1px solid #cecaca;
+}
+
+.aciklama{
+    position: relative;
+    left: 290px;
+    bottom: 600px;
+    width: 300px;
+    height: 235px;
+}
+
+#yazi{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aciklama p{
+    font-size: 18px;
+}

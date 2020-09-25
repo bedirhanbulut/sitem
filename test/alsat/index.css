@@ -1,0 +1,174 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+    height: 500px;
+}
+
+header .logo{
+    margin: 0 auto;
+}
+
+header .icon{
+  position: relative;
+  display: inline-block;
+  float: right;
+  bottom: 80px;
+  margin-left: 37px;
+}
+
+.ust{
+    height: 110px;
+    background: #F2F2F2;
+    border: 2px solid #E7E4E4;
+}
+
+.ust img{
+  margin-top: 9px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.urunler{
+  background: #F2F2F2;
+}
+
+.urun{
+    position: relative;
+    left: 26px;
+    margin-top: 23px;
+    margin-right: 50px;
+    margin-left: 20px;
+    background: white;
+    border-radius:25px;
+    border:2px solid #aaa;
+    width: 222px;
+    height: 420px;
+    display: inline-block;
+}
+
+.urun img{
+  width: 222px;
+  height: 280px;
+  border-radius:25px;
+  margin: 0 auto;
+}
+
+.urun p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+}
+
+.urun .ad{
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.urun .fiyat{
+  color: #FF7851;
+  margin-left: 8px;
+  margin-top: 27px;
+}
+
+.urun .katagori{
+  bottom: 153px;
+  left: 106px;
+  position: relative;
+  background: #FF7851;
+  border-radius:25px;
+  height: 40px;
+  width: 110px;
+}
+
+.urun .katagori p{
+  padding-top: 4px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.urunler a {
+  color: black;
+}
+
+
