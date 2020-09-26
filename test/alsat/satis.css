@@ -1,0 +1,149 @@
+.container{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 450px;
+    height: 650px;
+    background: #F2F2F2;
+}
+
+header h2{
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}
+
+.katagori{
+    margin-bottom: 30px;
+}
+
+.katagori p{
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.katagori select{
+    margin-left: 15px;
+    font-size: 19px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.katagori select:hover{
+    background: #e0ffff;
+}
+
+.baslik{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.baslik input{
+    font-size: 19px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+}
+
+.baslik input:hover{
+    background: #e0ffff;
+}
+
+.durum{
+    margin-bottom: 30px;
+}
+
+.durum p{
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.durum select{
+    margin-left: 15px;
+    font-size: 19px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.durum select:hover{
+    background: #e0ffff;
+}
+
+.durum button{
+    position: relative;
+    left: 35px;
+ 
+    background-color: #008CBA;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+
+.durum button:hover{
+    background:  #8affff;
+}
+
+.aciklama{
+    margin-left: 15px;
+}
+
+.aciklama input{
+    font-size: 19px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 150px;
+    border: none;
+    border-radius: 25px;
+}
+
+.aciklama input:hover{
+    background: #e0ffff;
+}
+
+.satis{
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
+.satis button{
+  background-color: #bdffff;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.satis button:hover{
+    background: #008CBA;
+}
