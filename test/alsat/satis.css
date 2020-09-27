@@ -1,3 +1,13 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+   -webkit-box-sizing: border-box; 
+   box-sizing: border-box;
+ }
+ body {
+   font-family:'Helvetica', sans-serif; 
+ }
+ 
+
 .container{
     border: 1px solid black;
     margin: 0 auto;
@@ -73,7 +83,6 @@ header p{
 }
 
 .fiyat{
-
     margin-left: 15px;
 }
 
@@ -230,3 +239,64 @@ footer button{
 footer button img{
     float: right;
 }
+
+.ucret{
+    position: relative;
+    left: 317px;
+    bottom: 129px;
+    display: inline-block;
+}
+
+.ucret p{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 116px;
+    top: 30px;
+    font-size: 18px;
+}
+
+
+.three .button-wrap {
+    height: 35px;
+    width: 100px;
+    margin: 40px auto 0;
+    cursor: pointer;
+  }
+  .three .button-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border-radius: 40px;
+    padding: 3px;
+    color:#fff;
+    transition:all 0.2s ease;
+  }
+  .three .button-switch {
+      bottom: 3px;
+    position:relative;
+    left:-2px;
+    width: 44px;
+    height: 35px;
+    border:solid 13px;
+    background-color:#fff;
+    border-radius: 36px;
+    transition:all 0.2s ease;
+  }
+  .three .button-active .button-switch { left:50px; }
+  .three .button-in, 
+  .three .button-out {
+    position:absolute; 
+    transition:all 0.2s ease;
+    padding-top:15px;
+    font-size:0.8em;
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+  .three .button-in { margin-left:76px; }
+  .three .button-out { margin-left:18px; }
+  .three .button-active .button-out {  }
+  .three .button-active .button-in {  }
+  .three .button-active .button-bg { background-color:#22bb22; }
+  
+
+
