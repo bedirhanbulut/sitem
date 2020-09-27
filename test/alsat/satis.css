@@ -2,7 +2,7 @@
     border: 1px solid black;
     margin: 0 auto;
     width: 450px;
-    height: 650px;
+    height: 1370px;
     background: #F2F2F2;
 }
 
@@ -12,99 +12,131 @@ header h2{
     color: #555555;
 }
 
-.katagori{
-    margin-bottom: 30px;
-}
-
-.katagori p{
+header p{
+    margin-left: 12px;
     font-family: 'Roboto', sans-serif;
     color: #555555;
+    font-size: 22px;
+}
+
+ .alt-yazi{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 27px;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.katagori .ust-yazi{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
     margin-left: 15px;
     font-size: 20px;
 }
 
 .katagori select{
+    position: relative;
+    bottom: 15px;
     margin-left: 15px;
     font-size: 19px;
-    color: #555555;
+    color: #515C6F;
     font-family: 'Roboto', sans-serif;
-    width: 200px;
-    height: 35px;
+    width: 420px;
+    height: 45px;
     border: none;
-    border-radius: 25px;
+    border-radius: 13px;
     cursor: pointer;
 }
 
-.katagori select:hover{
-    background: #e0ffff;
-}
-
 .baslik{
-    margin-bottom: 20px;
     margin-left: 15px;
 }
 
 .baslik input{
     font-size: 19px;
-    color: #555555;
+    color: #515C6F;
     font-family: 'Roboto', sans-serif;
-    width: 400px;
-    height: 35px;
+    width: 420px;
+    height: 45px;
     border: none;
-    border-radius: 25px;
+    border-radius: 13px;
 }
 
-.baslik input:hover{
-    background: #e0ffff;
+.alt-yazi2{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 15px;
+    font-size: 15px;
+    position: relative;
+    bottom: 3px;
 }
 
-.durum{
-    margin-bottom: 30px;
+.fiyat{
+
+    margin-left: 15px;
+}
+
+.fiyat input{
+    font-size: 19px;
+    color: #515C6F;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
 }
 
 .durum p{
     font-family: 'Roboto', sans-serif;
-    color: #555555;
+    color: #515C6F;
     margin-left: 15px;
     font-size: 20px;
+    width: 420px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+    background: #FFFFFF;   
 }
 
 .durum select{
     margin-left: 15px;
     font-size: 19px;
-    color: #555555;
+    color: #515C6F;
     font-family: 'Roboto', sans-serif;
     width: 200px;
-    height: 35px;
+    height: 45px;
     border: none;
-    border-radius: 25px;
+    border-radius: 13px;
     cursor: pointer;
 }
 
-.durum select:hover{
-    background: #e0ffff;
+span{
+    color: red;
 }
 
 .durum button{
-    position: relative;
-    left: 35px;
- 
-    background-color: #008CBA;
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
     border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 25px;
-    
+    border-radius: 13px;
+    background: #FFFFFF;  
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
+.durum .ikinci{
+  position: relative;
 }
 
 .durum button:hover{
-    background:  #8affff;
+    color: white;
+    background: #FF7851;
+    cursor: pointer;
 }
 
 .aciklama{
@@ -113,37 +145,88 @@ header h2{
 
 .aciklama input{
     font-size: 19px;
-    color: #555555;
+    color: #515C6F;
     font-family: 'Roboto', sans-serif;
     width: 400px;
     height: 150px;
     border: none;
+    border-radius: 13px;
+}
+
+.fotograf{
+    position: relative;
+    left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fotograf h2{
+    font-size: 30px;
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}
+
+.fotograf .foto{
+    margin-bottom: 25px;
+    float: left;
+    display: inline-block;
+    background: #FFFFFF;
+    width: 100px;
+    height: 94px;
+    border-radius: 13px;
+    margin-left: 20px;
+}
+
+.fotograf .foto img{
+    position: relative;
+    left: 35px;
+    top: 31px;
+}
+
+.kapak{
+    top: 15px;
+    position: relative;
+    background: #FF7851;
     border-radius: 25px;
+    height: 30px;
+    width: 101px;
 }
 
-.aciklama input:hover{
-    background: #e0ffff;
+.kapak p{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-.satis{
-    margin-left: 170px;
-    margin-top: 15px;
+.alt-yazi3 p{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F; 
+    width: 400px;
 }
 
-.satis button{
-  background-color: #bdffff;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 25px;
+.alt-yazi3{
+    right: 35px;
+    position: absolute;
+    top: 275px;
 }
 
-.satis button:hover{
-    background: #008CBA;
+footer button{
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 74px;
+    left: 61px;
+    font-size: 25px;
+    border: none;
+}
+
+footer button img{
+    float: right;
 }
