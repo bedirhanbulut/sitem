@@ -223,6 +223,7 @@ span{
 }
 
 footer button{
+    cursor: pointer;
     height: 46px;
     width: 330px;
     background: #FF7D5A;
@@ -296,7 +297,7 @@ footer button img{
   .three .button-out { margin-left:18px; }
   .three .button-active .button-out {  }
   .three .button-active .button-in {  }
-  .three .button-active .button-bg { background-color:#22bb22; }
+  .three .button-active .button-bg { background-color:#FF7D5A; }
   
 
 
