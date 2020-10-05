@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="fotolar.css">
     <link rel="stylesheet" href="satis.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -134,17 +134,23 @@
     </footer>
 
 
+    <form method="post" enctype="multipart/form-data">
+        <div>
+          <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
+          <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+        </div>
+        <div class="preview">
+          <p>No files currently selected for upload</p>
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+
  </div>
 
- <form id='file-catcher'>
-    <input id='file-input' type='file' multiple/>
-    <button type='submit'>
-      Submit
-    </button>
-  </form>
-  
-  <div id='file-list-display'></div>
 
+<script src="fotolar.js"></script>
 <script src="satis.js"></script>
 
 </body>
