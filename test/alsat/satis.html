@@ -86,9 +86,9 @@
         </select>
     </div> 
    
-    <div class="fotograf">
+   <div class="fotograf">
         <h2>Fotoğraf ekle</h2>
-
+<!--
         <div class="foto">
             <img src="images/icon4.png" alt="">
             <div class="kapak">
@@ -116,14 +116,16 @@
             <img src="images/icon4.png" alt="">
         </div>
 
+
         <div class="foto">
             <img src="images/icon4.png" alt="">
         </div>
 
+        
         <div class="alt-yazi3">
             <p>*İpucu: En az 5 fotoğraf ekle ve fotoğraf çekerken ışığı arkana almayı unutma</p>
         </div>
-
+--> 
     </div>
 
 
@@ -131,21 +133,41 @@
 
         <button>İlanı Yayınla <img src="images/icon5.png" alt=""></button>
 
-    </footer>
+    </footer>    
 
+    <div class="upload">
 
-    <form method="post" enctype="multipart/form-data">
-        <div>
-          <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
-          <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+        <div style="top: 0px; position: relative; left: 0;" class="upload-wrap"><p class="head">
+          <div class="uploadpreview 01"></div>
+          <input id="01" type="file" accept="image/*">
+        </div></p>
+        
+        <div class="upload-wrap"><p class="head">
+          <div class="uploadpreview 02"></div>
+          <input id="02" type="file" accept="image/*">
         </div>
-        <div class="preview">
-          <p>No files currently selected for upload</p>
+        
+        <div class="upload-wrap"><p class="head">
+          <div class="uploadpreview 03"></div>
+          <input id="03" type="file" accept="image/*">
         </div>
-        <div>
-          <button>Submit</button>
+        
+        <div class="upload-wrap"><p class="head">
+          <div class="uploadpreview 04"></div>
+          <input id="04" type="file" accept="image/*" autofocus >
         </div>
-      </form>
+
+        <div class="upload-wrap"><p class="head">
+            <div class="uploadpreview 04"></div>
+            <input id="04" type="file" accept="image/*" autofocus >
+          </div>
+
+          <div class="upload-wrap"><p class="head">
+            <div class="uploadpreview 04"></div>
+            <input id="04" type="file" accept="image/*" autofocus >
+          </div>
+
+    </div>
 
  </div>
 

@@ -170,45 +170,37 @@ span{
 }
 
 .fotograf h2{
+    margin-bottom: -24px;
     font-size: 30px;
     margin-left: 12px;
     font-family: 'Roboto', sans-serif;
     color: #555555;
 }
 
-.fotograf .foto{
-    margin-bottom: 25px;
-    float: left;
-    display: inline-block;
-    background: #FFFFFF;
-    width: 100px;
-    height: 94px;
-    border-radius: 13px;
-    margin-left: 20px;
-}
+     /*   .fotograf .foto img{
+            position: relative;
+            left: 35px;
+            top: 31px;
+        }
 
-.fotograf .foto img{
-    position: relative;
-    left: 35px;
-    top: 31px;
-}
+        .kapak{
+            top: 15px;
+            position: relative;
+            background: #FF7851;
+            border-radius: 25px;
+            height: 30px;
+            width: 101px;
+        }
 
-.kapak{
-    top: 15px;
-    position: relative;
-    background: #FF7851;
-    border-radius: 25px;
-    height: 30px;
-    width: 101px;
-}
+        .kapak p{
+            padding-top: 4px;
+            text-align: center;
+            font-size: 17px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
 
-.kapak p{
-    padding-top: 4px;
-    text-align: center;
-    font-size: 17px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
+        */
 
 .alt-yazi3 p{
     font-family: 'Roboto', sans-serif;
@@ -231,7 +223,7 @@ footer button{
     position: relative;
     font-family: 'Roboto', sans-serif;
     color: white;
-    top: 74px;
+    top: 342px;
     left: 61px;
     font-size: 25px;
     border: none;
