@@ -177,6 +177,30 @@ span{
     color: #555555;
 }
 
+.fotolar{
+    padding-right: 57px;
+    position: relative;
+    top: 48px;
+    left: 15px;
+}
+
+.fotolar #thumbs{
+    border-radius: 13px;
+}
+
+.fotolar #thumbs img{
+    margin-bottom: 25px;
+    margin-right: 30px;
+    border-radius: 13px;
+}
+
+
+
+
+
+
+
+
 .alt-yazi3 p{
     font-family: 'Roboto', sans-serif;
     color: #515C6F; 
