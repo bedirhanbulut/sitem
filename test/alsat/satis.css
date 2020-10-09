@@ -246,8 +246,7 @@ footer button img{
     font-size: 18px;
 }
 
-
-input{
+.fotolar input{
     background: #FFFFFF;
     opacity: 1;
     border: none;
@@ -255,6 +254,10 @@ input{
     cursor: pointer;
     margin-bottom: 25px;
 }
+
+
+
+
 
 
 
