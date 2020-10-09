@@ -13,7 +13,7 @@
     margin: 0 auto;
     max-width: 450px;
     height: 1370px;
-    background: #F2F2F2;
+    background:#F2F2F2;    
 }
 
 header h2{
@@ -189,17 +189,12 @@ span{
 }
 
 .fotolar #thumbs img{
+    position: relative;
+    bottom: 119px;
     margin-bottom: 25px;
     margin-right: 30px;
     border-radius: 13px;
 }
-
-
-
-
-
-
-
 
 .alt-yazi3 p{
     font-family: 'Roboto', sans-serif;
@@ -213,6 +208,12 @@ span{
     top: 275px;
 }
 
+footer{
+    position: relative;
+    top: 69px;
+    left: 32px;
+}
+
 footer button{
     cursor: pointer;
     height: 46px;
@@ -222,8 +223,6 @@ footer button{
     position: relative;
     font-family: 'Roboto', sans-serif;
     color: white;
-    top: 342px;
-    left: 61px;
     font-size: 25px;
     border: none;
 }
@@ -246,6 +245,17 @@ footer button img{
     top: 30px;
     font-size: 18px;
 }
+
+
+input{
+    background: #FFFFFF;
+    opacity: 1;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
 
 
 .three .button-wrap {
