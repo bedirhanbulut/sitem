@@ -2,8 +2,8 @@
     background: #F2F2F2;
     padding: 0;
     margin: 0 auto;
-    width: 414px;
-    height: 1200px;
+    width: 415px;
+    height: 1300px;
 }
 
 
@@ -12,8 +12,12 @@
 
 /*resimler (başlangıç)*/
 .resimler{
-    border: 1px solid lightcoral;
     height: 450px;
+}
+
+.fotolar{
+    position: relative;
+    bottom: 65px;
 }
 
 
@@ -30,11 +34,61 @@
 /*fiyat (başlangıç)*/
 
 .fiyat{
-    border: 1px solid lightblue;
-    height: 170px;
+    height: 120px;
 }
 
+.fiyat h2{
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+    font-size: 33px;
+    margin-left: 20px;
+}
 
+.iconlar{
+    display: inline-block;
+    position: relative;
+    left: 319px;
+    bottom: 60px;
+}
+
+.fiyat .iconlar img{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.buton1{
+    height: 30px;
+    width: 88px;
+    border-radius: 24px;
+}
+
+.buton2{
+    height: 30px;
+    width: 138px;
+    border-radius: 24px;
+}
+
+.butonlar{
+    bottom: 30px;
+    position: relative;
+    right: 13px;
+}
+
+.butonlar p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #727C8E;
+    font-size: 16px;
+    position: relative;
+    bottom: 12px;
+}
+
+.butonlar .buton1,.buton2{
+    margin-left: 30px;
+    border: 1px solid #727C8E;
+    display: inline-block;
+    background: #FFFFFF;
+}
 
 /*fiyat (biriş)*/
 
@@ -48,17 +102,84 @@
 /*aciklama (başkangıç)*/
 
 .aciklama{
-    border: 1px solid red;
-    height: 190px;
+    height: 240px;
 }
 
+.aciklama h2{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+    font-size: 25px;
+    margin-left: 20px;
+}
 
+.katagori{
+    position: relative;
+    bottom: 14px;
+}
+
+.katagori p{
+    margin-left: 20px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #727C8E;
+    font-size: 20px;
+}
+
+.katagori .iconlar{
+    position: relative;
+    left: 104px;
+    top: -1px;
+}
+
+.katagori .iconlar img{
+    margin-right: 35px;
+}
+
+.aciklama .yazi{
+    margin-left: 20px;
+    bottom: 27px;
+    position: relative;
+    height: 130px;
+}
+
+.aciklama .yazi p{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+    font-size: 19px;
+}
+
+.aciklama .hakan{
+    border-bottom: 1px solid #EBEBEB;
+    position: relative;
+    bottom: 76px;
+}
+
+.aciklama .hakan img{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.aciklama .hakan .hb {
+    position: relative;
+    right: 59px;
+    bottom: 15px;
+}
+
+.aciklama .hakan p{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    color: #AAAAAA;
+    bottom: 16px;
+    right: 29px;
+}
+
+.aciklama .hakan span{
+    color: black;
+}
 
 /*aciklama (bitiş)*/
-
-
-
-
 
 
 
@@ -67,10 +188,33 @@
 /*konum (başlangıç)*/
 
 .konum{
-    border: 1px solid lightgreen;
     height: 270px;
 }
 
+iframe{
+    position: relative;
+    top: 37px;
+    left: 17px;
+    width: 378px;
+    height: 165px;
+}
+.konum .konum-yazi img{
+   position: relative;
+   top: 4px;
+}
+
+.konum .konum-yazi{
+    position: relative;
+    top: 23px;
+    margin-left: 20px;
+}
+
+.konum .konum-yazi p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #AAAAAA;
+    font-size: 18px;
+}
 
 
 /*konum (bitiş)*/
@@ -79,18 +223,61 @@
 
 
 
-
-
-
-
-
 /*iletisim (başlangıç)*/
 
 .iletisim{
-    border: 1px solid blueviolet;
-    height: 120px;
+    height: 171px;
+    position: relative;
+}
+
+.hazir{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    height: 75px;
+}
+
+.hazir p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    color: white;
+    background: #FF7D5A;
+    border-radius: 15px;
+    height: 29px;
+    text-align: center;
+    width: 177px;
+    position: relative;
+    top: 7px;
+}
+
+.chat{
+    height: 94px;
+}
+
+.chat #chat{
+    right: 53px;
+    bottom: 5px;
+}
+
+.chat img{
+    top: 25px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.chat input{
+    border-radius: 30px;
+    width: 310px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0E3;
+    position: relative;
+    bottom: 31px;
+    left: 79px;
 }
 
 
-
 /*iletisim (bitiş)*/
+
