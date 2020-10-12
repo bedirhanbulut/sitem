@@ -1,0 +1,43 @@
+.container{
+    background: #FCFCFC;
+    margin: 0 auto;
+    height: 800px;
+    width: 414px;
+    padding: 30px;
+}
+
+.katagoriler{
+    position: relative;
+    left: 19px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    background: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 38px;
+    margin-bottom: 30px;
+}
+
+.katagoriler p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #515C6F;
+    text-align: center;
+    margin-top: 72px;
+}
+
+.alt{
+    height: 25px;
+}
+
+.alt img{
+    position: relative;
+    margin-right: 30px;
+    top: 17px;
+    left: 19px;
+}
+
+
+
+
