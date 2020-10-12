@@ -1,0 +1,76 @@
+.container{
+    background: #F2F2F2;
+    height: 735px;
+    width: 414px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.dis{
+    margin-left: 154px;
+    margin-top: 185px;
+    margin-bottom: 35px;
+}
+
+.ic{
+    position: relative;
+    right: 70px;
+    bottom: 65px;
+}
+
+.yazilar{
+    position: relative;
+    bottom: 33px;
+    margin: 0 auto;
+    height: 170px;
+    width: 265px;
+}
+
+.baslik{
+    border: 1px solid #F2F2F2;
+    height: 100px;
+}
+
+.baslik p{
+    font-size: 30px;
+}
+
+.yazi{
+    border: 1px solid #F2F2F2;
+    height: 67px;
+}
+
+.yazi p{
+    font-size: 15px;
+}
+
+.yazilar p{
+    color: #515C6F;
+    font-family:'Helvetica', sans-serif; 
+    text-align: center;
+}
+
+button{
+    left: 127px;
+    cursor: pointer;
+    height: 46px;
+    width: 165px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+button img{
+    float: right;
+}
+
+button span{
+    position: relative;
+    top: 6px;
+    left: 7px;
+}
+
