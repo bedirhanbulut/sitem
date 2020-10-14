@@ -1,0 +1,185 @@
+p,span,h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+header{ 
+    width: 414px;
+    height: 139px;
+}
+
+header img{
+    margin-top: 5px;
+}
+
+header .yazi{
+    bottom: 137px;
+    left: 154px;
+    position: relative;
+    width: 160px;
+    height: 110px;
+}
+
+header .yazi h3{
+    bottom: 18px;
+    position: relative;
+    color: #515C6F;
+    font-size: 25px;
+}
+
+header .yazi p{
+    bottom: 32px;
+    position: relative;
+    color: #515C6F;
+    font-size: 15px;
+}
+
+header .yazi .buton{
+    bottom: 36px;
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 138px;
+    height: 30px;
+    border: 1px solid #727C8E;
+}
+
+header .yazi .buton span{
+    top: 4px;
+    position: relative;
+    color: #727C8E;
+    font-size: 12px;
+}
+
+.secenekler{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    width: 414px;
+    height: 44px;
+}
+
+.secenekler p{
+    bottom: 11px;
+    position: relative;
+    display: inline-block;
+    color: #AAAAAA;
+    font-size: 20px;
+}
+
+.secenekler p:hover{
+    cursor: pointer;
+    color: #515C6F;
+}
+
+footer{
+    margin-top: 80px;
+    margin-left: 31px;
+    height: 350px;
+    width: 350px;
+}
+
+footer .icon{
+    margin-left: 120px;
+}
+
+footer .yazilar{
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    height: 115px;
+}
+
+footer h3{
+    font-size: 20px;
+    color: #FF7D5A;
+}
+
+footer p{
+    font-size: 18px;
+    color: #555555;
+}
+
+footer button{
+    top: 22px;
+    left: 10px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+footer button img{
+    bottom: 31px;
+    position: relative;
+    float: right;
+}
+
+footer button .butonp{
+    color: #FCFCFC;
+    font-size: 12px;
+}
+
+.urun{
+    border-radius: 10px;
+    margin-left: 8.5px;
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 193px;
+    height: 264px;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  .urun img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .urun .p{
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #515C6F;
+  }
+  
+  .urun span{
+    position: relative;
+    top: -34px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+  }
+  
+  .urun .ic{
+    left: 100px;
+    bottom: 40px;
+    position: relative;
+    background: #FF7D5A;
+    border-top-left-radius: 10px;
+    width: 93px;
+    height: 21px;
+  }
+  
+  
+  .urun .ic .sa{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+  }
