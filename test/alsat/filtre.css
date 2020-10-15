@@ -25,6 +25,53 @@
 
 
 
+button{
+    left: 40px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+    top: 25px;
+}
+
+button img{
+    float: right;
+}
+
+button span{
+    bottom: 3px;
+    position: relative;
+    font-size: 16px;
+}
+
+.filtre select{
+    background: #F5F5F5;
+    position: relative;
+    font-size: 19px;
+    color: #B3B8BF;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 46px;
+    border: none;
+    cursor: pointer;
+    margin-left: 181px;
+    bottom: 50px;
+}
+
+.filtre p{
+    margin-left: 15px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 16px;
+    color: #515C6F;
+}
 
 
 
