@@ -19,11 +19,37 @@
     margin-left: 6.5px;
     width: 400px;
     height: 48px;
-    background: lightblue;
     margin-top: 8px;
 }
 
+.sifirla h4{
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
 
+.sifirla .sag{
+    cursor: pointer;
+    margin-right: 8px;
+    float: right;
+    color: #FF7D5A;
+    border-radius: 6px;
+    width: 66px;
+    text-align: center;
+    height: 19px;
+}
+
+.sifirla .sag:hover{
+    background: grey;
+    color: white;
+}
+
+.sifirla .sol{
+    margin-left: 8px;
+    color: #A5ABB4;
+}
 
 button{
     left: 40px;
@@ -62,6 +88,9 @@ button span{
     cursor: pointer;
     margin-left: 181px;
     bottom: 50px;
+    background-image: url("images/icon.png");
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .filtre p{
