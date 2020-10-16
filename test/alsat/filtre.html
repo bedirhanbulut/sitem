@@ -15,12 +15,12 @@
 
             <div class="sifirla">
                 <h4 class="sol">ARAMAYI FİLTRELE</h4>
-                <h4 class="sag">SIFIRLA</h4>
+                <h4 class="sag"><input type="reset" id="submit" name="submit" value="SIFIRLA" onclick="checkForm();" /></h4>
             </div>
 
             </div>
 
-            <div class="filtre">
+       <form action="">   <div class="filtre">
                 <p>Fiyat Aralığı</p>
                 <select>
                     <option value="">50-100 TL</option>
@@ -83,13 +83,20 @@
                     <option value="">Önce en Eski</option>
                 </select>
             </div>
-
+        </form>  
 
             <button><span> FİLTRELERİ UYGULA</span><img src="images/icon5.png" alt=""></button>
             
         </div>
 
-        
+        <script>
+        function checkForm(){
+            alert("Form temizlenecek");
+            document.forms[0].reset();
+             //forms[forms] yerine formun
+             //ismini de kullanabilirsiniz
+             //document.formName.reset();
+           }</script>
 
 </body>
 </html>

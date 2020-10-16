@@ -30,20 +30,23 @@
     display: inline-block;
 }
 
-.sifirla .sag{
+.sifirla input{
+    font-size: 15px;
+    left: 191px;
+    position: relative;
+    border: none;
     cursor: pointer;
-    margin-right: 8px;
-    float: right;
     color: #FF7D5A;
     border-radius: 6px;
     width: 66px;
     text-align: center;
     height: 19px;
+    background: #FCFCFC;
 }
 
-.sifirla .sag:hover{
-    background: grey;
+.sifirla input:hover{
     color: white;
+    background: #FF7D5A;
 }
 
 .sifirla .sol{
