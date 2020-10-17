@@ -79,9 +79,9 @@ button span{
     font-size: 16px;
 }
 
-.filtre select{
+select{
+    text-align-last: right;
     background: #F5F5F5;
-    position: relative;
     font-size: 19px;
     color: #B3B8BF;
     font-family: 'Roboto', sans-serif;
@@ -89,14 +89,13 @@ button span{
     height: 46px;
     border: none;
     cursor: pointer;
-    margin-left: 181px;
-    bottom: 50px;
-    background-image: url("images/icon.png");
-    background-position: right;
+    background-image: url(images/icon.png);
+    background-position: left;
     background-repeat: no-repeat;
+    float: right;
 }
 
-.filtre p{
+p{
     margin-left: 15px;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
@@ -104,6 +103,3 @@ button span{
     font-size: 16px;
     color: #515C6F;
 }
-
-
-

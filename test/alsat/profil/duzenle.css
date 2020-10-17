@@ -1,0 +1,100 @@
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.container{
+    border: 1px solid black;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.ust{
+    margin: 0 auto;
+    width: 381px;
+    height: 306px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.div{
+    width: 380px;
+    height: 50px;
+    border-bottom: 1px solid #727C8E;
+}
+
+.foto{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 49px;
+}
+
+.sagfoto{
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    float: right;
+    background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49px;
+    width: 48px;
+}
+
+.div img{
+    left: 25px;
+    position: relative;
+    top: 14px;
+}
+
+.yazi{
+    top: 2px;
+    width: 259px;
+    height: 50px;
+    position: relative;
+    left: 72px;
+}
+
+.yazi p{
+    display: inline-block;
+    border: 1px solid white;
+    position: relative;
+    bottom: 56px;
+    font-size: 15px;
+    color: #515C6F;
+    
+}
+
+input{
+    font-size: 15px;
+    color: #AAAAAA;
+    text-align: right;
+    border: none;
+    left: 75px;
+    bottom: 54.6px;
+    height: 48.3px;
+    position: absolute;
+    display: inline-block;
+}
+
+.alt{
+    margin: 0 auto;
+    width: 381px;
+    height: 101px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+h4{
+    color: #515C6F;
+    margin-left: 13px;
+    font-size: 13px;
+}
+
+
