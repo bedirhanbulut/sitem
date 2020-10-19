@@ -1,0 +1,46 @@
+.container{
+    margin: 0 auto;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+.icon{
+    margin-left: 120px;
+}
+
+.yazilar{
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    height: 115px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FF7D5A;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #555555;
+}
+
+.butun{
+    position: relative;
+    top: 190px;
+    left: 31px;
+}
+
+.ayarlar{
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+

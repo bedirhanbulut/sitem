@@ -1,0 +1,81 @@
+p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 414px;
+    height: 736px;
+    background: #FF7D5A;
+}
+
+
+.item1{
+    width: 414px;
+    height: 288px;
+    background: white;
+}
+
+.item1 img{
+    position: relative;
+}
+
+.item1 .ust{
+    left: 170px;
+    top: 76px;
+}
+
+.item1 .alt{
+    left: 104px;
+    top: 104px
+}
+
+.item2{
+    left: 5px;
+    width: 325px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+
+.item2 input{
+    margin-right: 5px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 37px;
+    height: 49px;
+    background: white;
+}
+
+button{
+    margin-bottom: 53px;
+    left: 44px;
+    top: 122px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #FF7D5A;
+    font-size: 14px;
+    border: none;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.yazi{
+    position: relative;
+    text-align: center;
+    top: 109px;
+}
+
+.yazi p{
+    color: #FFFFFF;
+}
+

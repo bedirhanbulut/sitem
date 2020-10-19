@@ -1,0 +1,84 @@
+p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 414px;
+    height: 736px;
+    background: #FF7D5A;
+}
+
+.item1{
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    border: 1px solid #FF7D5A;
+    height: 340px;
+    width: 368px;
+}
+
+.item1 h2{
+    color: white;
+    font-size: 35px;
+}
+
+.item1 h4{
+    color: white;
+    font-size: 18px;
+}
+
+.tel{
+    width: 345px;
+    height: 59px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.tel img{
+    position: relative;
+    top: 17px;
+    left: 10px;
+}
+
+input{
+    left: 55px;
+    font-size: 15px;
+    color: #AAAAAA;
+    border: none;
+    bottom: 133px;
+    width: 286px;
+    height: 57px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+button{
+    margin-bottom: 53px;
+    left: 19px;
+    top: 15px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #FF7D5A;
+    font-size: 14px;
+    border: none;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p{
+    color: white;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+}
+
+
