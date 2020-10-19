@@ -1,0 +1,94 @@
+p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+}
+
+
+.container{
+    padding: 0px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+}
+
+.div{
+    border-bottom: 1px solid #676681;
+    width: 414px;
+    height: 94px;
+}
+
+.foto{
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    top: 10px;
+    left: 10px;
+}
+
+.foto img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.baslik{
+    display: inline-block;
+    position: relative;
+    bottom: 42px;
+    left: 28px;
+}
+
+.baslik p{
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.yazi{
+    display: inline-block;
+    position: relative;
+    right: 58px;
+}
+
+.yazi p{
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.sure{
+    left: 60px;
+    bottom: 42px;
+    display: inline-block;
+    position: relative;
+}
+
+.sure p{
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.sayi{
+    text-align: center;
+    height: 21px;
+    width: 19px;
+    border-radius: 7px;
+    left: 42px;
+    display: inline-block;
+    position: relative;
+    background: #FF7D5A;
+}
+
+.sayi p{
+    color: white;
+    margin: 0 auto;
+}
+
+
