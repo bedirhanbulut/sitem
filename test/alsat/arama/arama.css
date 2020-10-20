@@ -1,0 +1,107 @@
+p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+}
+
+
+.container{
+    padding: 0px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+}
+
+header{
+    background: #FFFFFF;
+    height: 54px;
+    width: 414px;
+}
+
+input{
+    top: 9px;
+    left: 31px;
+    position: relative;
+    background: #F1F2F3;
+    color: #515C6F;
+    font-size: 15px;
+    border: none;
+    width: 312px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 18px;
+}
+
+header img{
+    position: relative;
+    display: inline-block;
+}
+
+.sil{
+    height: 51px;
+}
+
+.gecmis{
+    height: 65px;
+    width: 414px;
+}
+
+.gecmis div{
+    display: inline-block;
+    margin-left: 20px;
+    width: 185px;
+    height: 59px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.gecmis div img,h5,p{
+    position: relative;
+    color: #515C6F;
+    display: inline-block;
+}
+
+.gecmis div img{
+    width: 45px;
+    height: 45px;
+}
+
+.gecmis div img{
+    left: 9px;
+    top: 7px;
+}
+
+.gecmis div h5{
+    left: 20px;
+    font-size: 15px;
+    bottom: 26px;
+}
+
+.gecmis div p{
+    right: 26px;
+}
+
+.secim{
+    margin-left: 10px;
+}
+
+.secim div{
+    margin-bottom: 5px;
+    width: 381px;
+    height: 48px;
+    background: #F5F5F5;
+    text-align: left;
+}
+
+.secim div p{
+    margin-left: 10px;
+    color: #515C6F;
+    font-size: 14px;
+}
+
+
+
+
+
+
