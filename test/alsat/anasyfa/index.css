@@ -184,9 +184,24 @@ header img{
   text-align: center;
 }
 
-
-
-
 p{
   font-family: 'Lato', sans-serif;
 }
+
+.alt{
+  bottom: 0px;
+  width: 414px;
+  height: 55px;
+  background: #FF7D5A;
+  position: fixed;
+}
+
+.alt img{
+  margin-right: 48px;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+}
+
+
