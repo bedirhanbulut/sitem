@@ -258,7 +258,7 @@ footer button img{
 
 .ucret{
     position: relative;
-    left: 317px;
+    left: 350px;
     bottom: 129px;
     display: inline-block;
 }
@@ -287,50 +287,66 @@ footer button img{
 
 
 
-
-
-.three .button-wrap {
-    height: 35px;
-    width: 100px;
-    margin: 40px auto 0;
-    cursor: pointer;
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
   }
-  .three .button-bg {
-    width: 100%;
-    height: 100%;
-    background-color: #ddd;
-    border-radius: 40px;
-    padding: 3px;
-    color:#fff;
-    transition:all 0.2s ease;
-  }
-  .three .button-switch {
-      bottom: 3px;
-    position:relative;
-    left:-2px;
-    width: 44px;
-    height: 35px;
-    border:solid 13px;
-    background-color:#fff;
-    border-radius: 36px;
-    transition:all 0.2s ease;
-  }
-  .three .button-active .button-switch { left:50px; }
-  .three .button-in, 
-  .three .button-out {
-    position:absolute; 
-    transition:all 0.2s ease;
-    padding-top:15px;
-    font-size:0.8em;
-    text-transform:uppercase;
-    font-weight:bold;
-  }
-  .three .button-in { margin-left:76px; }
-  .three .button-out { margin-left:18px; }
-  .three .button-active .button-out {  }
-  .three .button-active .button-in {  }
-  .three .button-active .button-bg { background-color:#FF7D5A; }
   
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #FF7D5A;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #FF7D5A;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
 
 
   
