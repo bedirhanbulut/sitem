@@ -1,0 +1,1180 @@
+.anasayfa .container{
+    margin: 0 auto;
+    padding: 0;
+    width: 414px;
+    background: #F2F2F2;
+    height: 1103px;
+  }
+  
+  .anasayfa  header{
+    height: 45.31px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E3E3;
+  }
+  
+  .anasayfa header img{
+    margin-top: 9px;
+    display: inline-block;
+  }
+  
+  .anasayfa .katagori{
+    height: 85px;
+    border-bottom: 1px solid #E5E3E3;
+  }
+  
+  .anasayfa .secenekler{
+    position: relative;
+    left: 13px;
+    margin-top: 15px;
+    height: 77px;
+  }
+  
+  .anasayfa .secenek{
+    position: relative;
+    margin-right: 18px;
+    display: inline-block;
+    width: 60px;
+    height: 77px;
+  }
+  
+  .anasayfa .secenek .ic{
+      display: inline-block;
+      position: relative;
+      bottom: 39px;
+      left: 17px;
+  }
+  
+  .anasayfa .secenek p{
+    bottom: 23px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .anasayfa .urun{
+    border-radius: 10px;
+    margin-left: 8.5px;
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 193px;
+    height: 264px;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  .anasayfa  .urun img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .anasayfa .urun .p{
+    position: relative;
+    bottom: 12px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #515C6F;
+  }
+  
+  .anasayfa .urun span{
+    position: relative;
+    top: 14px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+  }
+  
+  .anasayfa .urun .ic{
+    left: 100px;
+    bottom: 21px;
+    position: relative;
+    background: #FF7D5A;
+    border-top-left-radius: 10px;
+    width: 93px;
+    height: 21px;
+  }
+  
+  
+  .anasayfa .urun .ic .sa{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .anasayfa p{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .anasayfa .alt{
+    bottom: 0px;
+    width: 414px;
+    height: 55px;
+    background: #FF7D5A;
+    position: fixed;
+  }
+  
+  .anasayfa  .alt img{
+    margin-right: 48px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .arama  p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+}
+
+
+.arama .container{
+    padding: 0px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+}
+
+.arama header{
+    background: #FFFFFF;
+    height: 54px;
+    width: 414px;
+}
+
+.arama input{
+    top: 9px;
+    left: 31px;
+    position: relative;
+    background: #F1F2F3;
+    color: #515C6F;
+    font-size: 15px;
+    border: none;
+    width: 312px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.arama header img{
+    position: relative;
+    display: inline-block;
+}
+
+.arama .sil{
+    height: 51px;
+}
+
+.arama .gecmis{
+    height: 65px;
+    width: 414px;
+}
+
+.arama .gecmis div{
+    display: inline-block;
+    margin-left: 20px;
+    width: 185px;
+    height: 59px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.arama .gecmis div img,h5,p{
+    position: relative;
+    color: #515C6F;
+    display: inline-block;
+}
+
+.arama .gecmis div img{
+    width: 45px;
+    height: 45px;
+}
+
+.arama .gecmis div img{
+    left: 9px;
+    top: 7px;
+}
+
+.arama .gecmis div h5{
+    left: 20px;
+    font-size: 15px;
+    bottom: 26px;
+}
+
+.arama .gecmis div p{
+    right: 26px;
+}
+
+.arama .secim{
+    margin-left: 10px;
+}
+
+.arama .secim div{
+    margin-bottom: 5px;
+    width: 381px;
+    height: 48px;
+    background: #F5F5F5;
+    text-align: left;
+}
+
+.arama .secim div p{
+    margin-left: 10px;
+    color: #515C6F;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bildirim .container{
+    margin: 0 auto;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+.bildirim .icon{
+    margin-left: 120px;
+}
+
+.bildirim .yazilar{
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    height: 115px;
+}
+
+.bildirim h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FF7D5A;
+}
+
+.bildirim p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #555555;
+}
+
+.bildirim .butun{
+    position: relative;
+    top: 190px;
+    left: 31px;
+}
+
+.bildirim .ayarlar{
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bildirimayarlari p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bildirimayarlari h4{
+    bottom: 9px;
+    position: relative;
+    color: #FF7D5A;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.bildirimayarlari p{
+    position: relative;
+    bottom: 45px;
+    color: #555555;
+    font-size: 15px;
+}
+
+.bildirimayarlari .container{
+    margin: 0 auto;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+.bildirimayarlari .div{
+    margin: 0 auto;
+    border-top: 1px solid #EBEBEB;
+    height: 83px;
+    width: 385px;
+}
+
+.bildirimayarlari .buton{
+    width: 70px;
+    height: 37px;
+    position: relative;
+    left: 325px;
+}
+
+
+
+
+
+.bildirimayarlari .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .bildirimayarlari .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .bildirimayarlari .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .bildirimayarlari  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .bildirimayarlari  input:checked + .slider {
+    background-color: #FF7D5A;
+  }
+  
+  .bildirimayarlari input:focus + .slider {
+    box-shadow: 0 0 1px #FF7D5A;
+  }
+  
+  .bildirimayarlari  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .bildirimayarlari  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .bildirimayarlari  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .chatsayfasi p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+}
+
+
+.chatsayfasi .container{
+    padding: 0px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+}
+
+.chatsayfasi .div{
+    border-bottom: 1px solid #676681;
+    width: 414px;
+    height: 94px;
+}
+
+.chatsayfasi .foto{
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    top: 10px;
+    left: 10px;
+}
+
+.chatsayfasi .foto img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.chatsayfasi .baslik{
+    display: inline-block;
+    position: relative;
+    bottom: 42px;
+    left: 28px;
+}
+
+.chatsayfasi .baslik p{
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.chatsayfasi .yazi{
+    display: inline-block;
+    position: relative;
+    right: 58px;
+}
+
+.chatsayfasi .yazi p{
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.chatsayfasi .sure{
+    left: 60px;
+    bottom: 42px;
+    display: inline-block;
+    position: relative;
+}
+
+.chatsayfasi .sure p{
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.chatsayfasi .sayi{
+    text-align: center;
+    height: 21px;
+    width: 19px;
+    border-radius: 7px;
+    left: 42px;
+    display: inline-block;
+    position: relative;
+    background: #FF7D5A;
+}
+
+.chatsayfasi .sayi p{
+    color: white;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filtrek .container{
+    padding: 0;
+    margin: 0 auto;
+    width: 414px;
+    height: 736px;
+    background: #FCFCFC;
+    border: 1px solid black;
+}
+
+.filtrek .filtre{
+    width: 381px;
+    height: 48px;
+    background: #F5F5F5;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.filtrek .sifirla{
+    margin-left: 6.5px;
+    width: 400px;
+    height: 48px;
+    margin-top: 8px;
+}
+
+.filtrek .sifirla h4{
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+.filtrek .sifirla input{
+    font-size: 15px;
+    left: 191px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    color: #FF7D5A;
+    border-radius: 6px;
+    width: 66px;
+    text-align: center;
+    height: 19px;
+    background: #FCFCFC;
+}
+
+.filtrek .sifirla input:hover{
+    color: white;
+    background: #FF7D5A;
+}
+
+.filtrek .sifirla .sol{
+    margin-left: 8px;
+    color: #A5ABB4;
+}
+
+.filtrek button{
+    left: 40px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+    top: 25px;
+}
+
+.filtrek button img{
+    float: right;
+}
+
+.filtrek button span{
+    bottom: 3px;
+    position: relative;
+    font-size: 16px;
+}
+
+.filtrek select{
+    text-align-last: right;
+    background: #F5F5F5;
+    font-size: 19px;
+    color: #B3B8BF;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 46px;
+    border: none;
+    cursor: pointer;
+    background-image: url(images/icon.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.filtrek p{
+    margin-left: 15px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 16px;
+    color: #515C6F;
+}
+
+
+
+
+
+
+
+
+
+
+.menukatagoriler .container{
+    background: #FCFCFC;
+    margin: 0 auto;
+    height: 800px;
+    width: 414px;
+    padding: 30px;
+}
+
+.menukatagoriler .katagoriler{
+    position: relative;
+    left: 19px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    background: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 38px;
+    margin-bottom: 30px;
+}
+
+.menukatagoriler .katagoriler p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #515C6F;
+    text-align: center;
+    margin-top: 72px;
+}
+
+.menukatagoriler .alt{
+    height: 25px;
+}
+
+.menukatagoriler .alt img{
+    position: relative;
+    margin-right: 30px;
+    top: 17px;
+    left: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mesajlar p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+}
+
+
+.mesajlar .container{
+    padding: 0px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+}
+
+.mesajlar header{
+    position: fixed;
+    width: 414px;
+    height: 57px;
+    background: #FFFFFF;
+}
+
+.mesajlar header .img{
+    background-image: url("foto8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 47px;
+    border-radius: 40px;
+}
+
+.mesajlar header div{
+    margin-left: 10px;
+    width: 151px;
+    height: 57px;
+}
+
+.mesajlar header div p{
+    bottom: 85px;
+    left: 58px;
+    position: relative;
+    font-size: 13px;
+    color: #B1B6BD;
+}
+
+.mesajlar header div h5{
+    bottom: 65px;
+    left: 58px;
+    position: relative;
+    font-size: 14px;
+    color: #555555;
+}
+
+.mesajlar .yazma{
+    top: 608px;
+    position: fixed;
+    height: 132px;
+    width: 414px;
+}
+
+.mesajlar .yazma .yazi{
+    position: relative;
+    height: 89px;
+    width: 414px;
+    border-top: 1px solid #727C8E;
+}
+
+.mesajlar .yazma .yazi .foto{
+    height: 89px;
+    width: 89px;
+    background-image: url("foto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mesajlar .yazma .yazi .foto img{
+    position: relative;
+    left: 37px;
+    top: 34px;}
+
+    .mesajlar .yazma .hazir{
+    height: 43px;
+    width: 414px;
+}
+
+.mesajlar .yazma .hazir .bir{
+    width: 151px;
+    height: 30px;
+    background: #FF7D5A;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mesajlar .yazma .hazir div{
+    display: inline-block;
+}
+
+.mesajlar .yazma .hazir p{
+    position: relative;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.mesajlar .yazma .hazir .iki{
+    width: 111px;
+    height: 30px;
+    background: #FF7D5A;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mesajlar .yazma .hazir .uc{
+    width: 90px;
+    height: 30px;
+    background: #FF7D5A;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mesajlar input{
+    left: 84px;
+    font-size: 15px;
+    border: 1px solid #DFE0E3;
+    bottom: 19px;
+    width: 310px;
+    height: 48px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profil p,span,h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.profil .container{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+.profil header{ 
+    width: 414px;
+    height: 139px;
+}
+
+.profil header img{
+    margin-top: 5px;
+}
+
+.profil header .yazi{
+    bottom: 137px;
+    left: 154px;
+    position: relative;
+    width: 160px;
+    height: 110px;
+}
+
+.profil header .yazi h3{
+    bottom: 18px;
+    position: relative;
+    color: #515C6F;
+    font-size: 25px;
+}
+
+.profil header .yazi p{
+    bottom: 32px;
+    position: relative;
+    color: #515C6F;
+    font-size: 15px;
+}
+
+.profil header .yazi .buton{
+    bottom: 36px;
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 138px;
+    height: 30px;
+    border: 1px solid #727C8E;
+}
+
+.profil header .yazi .buton span{
+    top: 4px;
+    position: relative;
+    color: #727C8E;
+    font-size: 12px;
+}
+
+.profil .secenekler{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    width: 414px;
+    height: 44px;
+}
+
+.profil .secenekler p{
+    bottom: 11px;
+    position: relative;
+    display: inline-block;
+    color: #AAAAAA;
+    font-size: 20px;
+}
+
+.profil .secenekler p:hover{
+    cursor: pointer;
+    color: #515C6F;
+}
+
+.profil footer{
+    margin-top: 80px;
+    margin-left: 31px;
+    height: 350px;
+    width: 350px;
+}
+
+.profil footer .icon{
+    margin-left: 120px;
+}
+
+.profil footer .yazilar{
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    height: 115px;
+}
+
+.profil footer h3{
+    font-size: 20px;
+    color: #FF7D5A;
+}
+
+.profil footer p{
+    font-size: 18px;
+    color: #555555;
+}
+
+.profil footer button{
+    top: 22px;
+    left: 10px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.profil footer button img{
+    bottom: 31px;
+    position: relative;
+    float: right;
+}
+
+.profil footer button .butonp{
+    color: #FCFCFC;
+    font-size: 12px;
+}
+
+.profil .urun{
+    border-radius: 10px;
+    margin-left: 8.5px;
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 193px;
+    height: 264px;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  .profil  .urun img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .profil  .urun .p{
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #515C6F;
+  }
+  
+  .profil  .urun span{
+    position: relative;
+    top: -34px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+  }
+  
+  .profil  .urun .ic{
+    left: 100px;
+    bottom: 40px;
+    position: relative;
+    background: #FF7D5A;
+    border-top-left-radius: 10px;
+    width: 93px;
+    height: 21px;
+  }
+   
+  .profil  .urun .ic .sa{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

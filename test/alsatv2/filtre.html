@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtre</title>
+</head>
+<body>
+    <div class="filtrek">
+    <div class="container">
+
+        <div class="filtreler">
+
+            <div class="sifirla">
+                <h4 class="sol">ARAMAYI FİLTRELE</h4>
+                <h4 class="sag"><input type="reset" id="submit" name="submit" value="SIFIRLA" onclick="checkForm();" /></h4>
+            </div>
+
+            </div>
+
+       <form action="">   <div class="filtre">
+                <p>Fiyat Aralığı</p>
+                <select dir="rtl">
+                    <option value="">50-100 TL</option>
+                    <option value="">100-500 TL</option>
+                    <option value="">500-1000 TL</option>
+                    <option value="">1000-2000 TL</option>
+                    <option value="">2000-3000 TL</option>
+                    <option value="">3000-4000 TL</option>
+                    <option value="">4000-5000 TL</option>
+                    <option value="">5000-1000 TL</option>
+                    <option value="">10000-20000 TL</option>
+                </select>
+            </div>
+
+            <div class="filtre">
+                <p>Sıralama</p>
+                <select dir="rtl">
+                    <option value="">Önce en Düşük Fiyat</option>
+                    <option value="">Önce en Yüksek Fiyat</option>
+                </select>
+            </div>
+
+            <div class="filtre">
+                <p>Kategori</p>
+                <select dir="rtl">
+                    <option value="">Elektronik</option>
+                    <option value="">Araba</option>
+                    <option value="">Oyun</option>
+                    <option value="">Ev & Bahçe</option>
+                    <option value="">Kitap & Müzik</option>
+                    <option value="">Spor</option>
+                    <option value="">Bebek & Çocuk</option>
+                    <option value="">Moda & Aksesuar</option>
+                    <option value="">Diğer</option>
+                </select>
+            </div>
+
+            <div class="filtre">
+                <p>Konum</p>
+                <select dir="rtl">
+                    <option value="">100 km</option>
+                    <option value="">200 km</option>
+                    <option value="">300 km</option>
+                    <option value="">400 km</option>
+                    <option value="">500 km</option>
+                    <option value="">600 km</option>
+                    <option value="">700 km</option>
+                    <option value="">800 km</option>
+                    <option value="">900 km</option>
+                    <option value="">1000 km</option>
+                    <option value="">Sınırsız</option>
+                </select>
+            </div>
+
+            <div class="filtre">
+                <p>Yayınlanma Zamanı</p>
+                <select dir="rtl">
+                    <option value="">Tümü</option>
+                    <option value="">Önce en Yeni</option>
+                    <option value="">Önce en Eski</option>
+                </select>
+            </div>
+        </form>  
+
+            <button><span> FİLTRELERİ UYGULA</span><img src="images/icon5.png" alt=""></button>
+            
+        </div>
+    </div>
+        <script>
+        function checkForm(){
+            alert("Form temizlenecek");
+            document.forms[0].reset();
+             //forms[forms] yerine formun
+             //ismini de kullanabilirsiniz
+             //document.formName.reset();
+           }</script>
+
+</body>
+</html>
