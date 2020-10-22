@@ -1049,21 +1049,416 @@
 
 
 
+ .profilbaskabirkullanicinin p,span,h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.profilbaskabirkullanicinin .container{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+.profilbaskabirkullanicinin header{ 
+    width: 414px;
+    height: 139px;
+}
+
+.profilbaskabirkullanicinin header img{
+    margin-top: 5px;
+}
+
+.profilbaskabirkullanicinin header .yazi{
+    bottom: 137px;
+    left: 154px;
+    position: relative;
+    width: 160px;
+    height: 110px;
+}
+
+.profilbaskabirkullanicinin header .yazi h3{
+    bottom: 18px;
+    position: relative;
+    color: #515C6F;
+    font-size: 25px;
+}
+
+.profilbaskabirkullanicinin header .yazi p{
+    bottom: 32px;
+    position: relative;
+    color: #515C6F;
+    font-size: 15px;
+}
+
+.profilbaskabirkullanicinin header .yazi .buton{
+    bottom: 36px;
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 138px;
+    height: 30px;
+    border: 1px solid #727C8E;
+}
+
+.profilbaskabirkullanicinin header .yazi .buton span{
+    top: 4px;
+    position: relative;
+    color: #727C8E;
+    font-size: 12px;
+}
+
+.profilbaskabirkullanicinin .secenekler{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    width: 414px;
+    height: 44px;
+}
+
+.profilbaskabirkullanicinin .secenekler p{
+    bottom: 11px;
+    position: relative;
+    display: inline-block;
+    color: #AAAAAA;
+    font-size: 20px;
+}
+
+.profilbaskabirkullanicinin .secenekler p:hover{
+    cursor: pointer;
+    color: #515C6F;
+}
+
+.profilbaskabirkullanicinin footer{
+    margin-top: 80px;
+    margin-left: 31px;
+    height: 350px;
+    width: 350px;
+}
+
+.profilbaskabirkullanicinin footer .icon{
+    margin-left: 120px;
+}
+
+.profilbaskabirkullanicinin footer .yazilar{
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    height: 115px;
+}
+
+.profilbaskabirkullanicinin footer h3{
+    font-size: 20px;
+    color: #FF7D5A;
+}
+
+.profilbaskabirkullanicinin footer p{
+    font-size: 18px;
+    color: #555555;
+}
+
+.profilbaskabirkullanicinin footer button{
+    top: 22px;
+    left: 10px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.profilbaskabirkullanicinin footer button img{
+    bottom: 31px;
+    position: relative;
+    float: right;
+}
+
+.profilbaskabirkullanicinin footer button .butonp{
+    color: #FCFCFC;
+    font-size: 12px;
+}
+
+.profilbaskabirkullanicinin .urun{
+    border-radius: 10px;
+    margin-left: 8.5px;
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 193px;
+    height: 264px;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  .profilbaskabirkullanicinin  .urun img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .profilbaskabirkullanicinin .urun .p{
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #515C6F;
+  }
+  
+  .profilbaskabirkullanicinin .urun span{
+    position: relative;
+    top: -34px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+  }
+  
+  .profilbaskabirkullanicinin  .urun .ic{
+    left: 100px;
+    bottom: 40px;
+    position: relative;
+    background: #FF7D5A;
+    border-top-left-radius: 10px;
+    width: 93px;
+    height: 21px;
+  }
+   
+  .profilbaskabirkullanicinin  .urun .ic .sa{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ .profiliduzenle h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.profiliduzenle .container{
+    border: 1px solid black;
+    background: #F2F2F2;
+    width: 414px;
+    height: 735px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.profiliduzenle .ust{
+    margin: 0 auto;
+    width: 381px;
+    height: 306px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
 
+.profiliduzenle .div{
+    width: 380px;
+    height: 50px;
+    border-bottom: 1px solid #727C8E;
+}
 
+.profiliduzenle .foto{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 49px;
+}
 
+.profiliduzenle .sagfoto{
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    float: right;
+    background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49px;
+    width: 48px;
+}
+
+.profiliduzenle .div img{
+    left: 25px;
+    position: relative;
+    top: 14px;
+}
+
+.profiliduzenle .yazi{
+    top: 2px;
+    width: 259px;
+    height: 50px;
+    position: relative;
+    left: 72px;
+}
+
+.profiliduzenle .yazi p{
+    display: inline-block;
+    border: 1px solid white;
+    position: relative;
+    bottom: 56px;
+    font-size: 15px;
+    color: #515C6F;
+    
+}
+
+.profiliduzenle input{
+    font-size: 15px;
+    color: #AAAAAA;
+    text-align: right;
+    border: none;
+    left: 75px;
+    bottom: 54.6px;
+    height: 48.3px;
+    position: absolute;
+    display: inline-block;
+}
+
+.profiliduzenle .alt{
+    margin: 0 auto;
+    width: 381px;
+    height: 101px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.profiliduzenle h4{
+    color: #515C6F;
+    margin-left: 13px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
+.signup p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+}
 
+.signup .container{
+    margin: 0 auto;
+    padding: 0;
+    width: 414px;
+    height: 736px;
+    background: #FF7D5A;
+}
 
+.signup .item1{
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    border: 1px solid #FF7D5A;
+    height: 340px;
+    width: 368px;
+}
 
+.signup .item1 h2{
+    color: white;
+    font-size: 35px;
+}
 
+.signup .item1 h4{
+    color: white;
+    font-size: 18px;
+}
 
+.signup .tel{
+    width: 345px;
+    height: 59px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
 
+.signup .tel img{
+    position: relative;
+    top: 17px;
+    left: 10px;
+}
 
+.signup input{
+    left: 55px;
+    font-size: 15px;
+    color: #AAAAAA;
+    border: none;
+    bottom: 133px;
+    width: 286px;
+    height: 57px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 10px;
+}
 
+.signup button{
+    margin-bottom: 53px;
+    left: 19px;
+    top: 15px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #FF7D5A;
+    font-size: 14px;
+    border: none;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.signup p{
+    color: white;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 
@@ -1080,17 +1475,86 @@
 
 
 
+.sms p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Lato', sans-serif;
+}
 
+.sms .container{
+    margin: 0 auto;
+    padding: 0;
+    width: 414px;
+    height: 736px;
+    background: #FF7D5A;
+}
 
 
+.sms .item1{
+    width: 414px;
+    height: 288px;
+    background: white;
+}
 
+.sms .item1 img{
+    position: relative;
+}
 
+.sms .item1 .ust{
+    left: 170px;
+    top: 76px;
+}
 
+.sms .item1 .alt{
+    left: 104px;
+    top: 104px
+}
 
+.sms .item2{
+    left: 5px;
+    width: 325px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
 
+.sms .item2 input{
+    margin-right: 5px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 37px;
+    height: 49px;
+    background: white;
+}
 
+.sms button{
+    margin-bottom: 53px;
+    left: 44px;
+    top: 122px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #FF7D5A;
+    font-size: 14px;
+    border: none;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+.sms .yazi{
+    position: relative;
+    text-align: center;
+    top: 109px;
+}
 
+.sms .yazi p{
+    color: #FFFFFF;
+}
 
 
 
@@ -1117,16 +1581,81 @@
 
 
 
+.succes .container{
+    background: #F2F2F2;
+    height: 735px;
+    width: 414px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
 
+.succes .dis{
+    margin-left: 154px;
+    margin-top: 185px;
+    margin-bottom: 35px;
+}
 
+.succes .ic{
+    position: relative;
+    right: 70px;
+    bottom: 65px;
+}
 
+.succes .yazilar{
+    position: relative;
+    bottom: 33px;
+    margin: 0 auto;
+    height: 170px;
+    width: 265px;
+}
 
+.succes .baslik{
+    border: 1px solid #F2F2F2;
+    height: 100px;
+}
 
+.succes .baslik p{
+    font-size: 30px;
+}
 
+.succes .yazi{
+    border: 1px solid #F2F2F2;
+    height: 67px;
+}
 
+.succes .yazi p{
+    font-size: 15px;
+}
 
+.succes .yazilar p{
+    color: #515C6F;
+    font-family:'Helvetica', sans-serif; 
+    text-align: center;
+}
 
+.succes button{
+    left: 127px;
+    cursor: pointer;
+    height: 46px;
+    width: 165px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+.succes button img{
+    float: right;
+}
 
+.succes button span{
+    position: relative;
+    top: 6px;
+    left: 7px;
+}
 
 
 
@@ -1178,3 +1707,867 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+.urundetay .container{
+    background: #F2F2F2;
+    padding: 0;
+    margin: 0 auto;
+    width: 415px;
+    height: 1300px;
+}
+
+
+
+
+
+/*resimler (başlangıç)*/
+.urundetay .resimler{
+    height: 450px;
+}
+
+.urundetay .fotolar{
+    position: relative;
+    bottom: 65px;
+}
+
+
+
+/*resimler (bitiş)*/
+
+
+
+
+
+
+
+
+/*fiyat (başlangıç)*/
+
+.urundetay .fiyat{
+    height: 120px;
+}
+
+.urundetay .fiyat h2{
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+    font-size: 33px;
+    margin-left: 20px;
+}
+
+.urundetay .iconlar{
+    display: inline-block;
+    position: relative;
+    left: 319px;
+    bottom: 60px;
+}
+
+.urundetay .fiyat .iconlar img{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.urundetay .buton1{
+    height: 30px;
+    width: 88px;
+    border-radius: 24px;
+}
+
+.urundetay .buton2{
+    height: 30px;
+    width: 138px;
+    border-radius: 24px;
+}
+
+.urundetay .butonlar{
+    bottom: 30px;
+    position: relative;
+    right: 13px;
+}
+
+.urundetay .butonlar p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #727C8E;
+    font-size: 16px;
+    position: relative;
+    bottom: 12px;
+}
+
+.urundetay .butonlar .buton1,.buton2{
+    margin-left: 30px;
+    border: 1px solid #727C8E;
+    display: inline-block;
+    background: #FFFFFF;
+}
+
+/*fiyat (biriş)*/
+
+
+
+/*aciklama (başkangıç)*/
+
+.urundetay .aciklama{
+    height: 240px;
+}
+
+.urundetay .aciklama h2{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.urundetay .katagori{
+    position: relative;
+    bottom: 14px;
+}
+
+.urundetay .katagori p{
+    margin-left: 20px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #727C8E;
+    font-size: 20px;
+}
+
+.urundetay .katagori .iconlar{
+    position: relative;
+    left: 104px;
+    top: -1px;
+}
+
+.urundetay .katagori .iconlar img{
+    margin-right: 35px;
+}
+
+.urundetay .aciklama .yazi{
+    margin-left: 20px;
+    bottom: 27px;
+    position: relative;
+    height: 130px;
+}
+
+.urundetay .aciklama .yazi p{
+    font-family: 'Lato', sans-serif;
+    color: #515C6F;
+    font-size: 19px;
+}
+
+.urundetay .aciklama .hakan{
+    border-bottom: 1px solid #EBEBEB;
+    position: relative;
+    bottom: 76px;
+}
+
+.urundetay .aciklama .hakan img{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.urundetay .aciklama .hakan .hb {
+    position: relative;
+    right: 59px;
+    bottom: 15px;
+}
+
+.urundetay .aciklama .hakan p{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    color: #AAAAAA;
+    bottom: 16px;
+    right: 29px;
+}
+
+.urundetay .aciklama .hakan span{
+    color: black;
+}
+
+/*aciklama (bitiş)*/
+
+
+
+
+
+/*konum (başlangıç)*/
+
+.urundetay .konum{
+    height: 270px;
+}
+
+.urundetay iframe{
+    position: relative;
+    top: 37px;
+    left: 17px;
+    width: 378px;
+    height: 165px;
+}
+.urundetay .konum .konum-yazi img{
+   position: relative;
+   top: 4px;
+}
+
+.urundetay .konum .konum-yazi{
+    position: relative;
+    top: 23px;
+    margin-left: 20px;
+}
+
+.urundetay .urundetay .konum .konum-yazi p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #AAAAAA;
+    font-size: 18px;
+}
+
+
+/*konum (bitiş)*/
+
+
+
+
+
+/*iletisim (başlangıç)*/
+
+.urundetay .iletisim{
+    height: 171px;
+    position: relative;
+}
+
+.urundetay .hazir{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    height: 75px;
+}
+
+.urundetay .hazir p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    color: white;
+    background: #FF7D5A;
+    border-radius: 15px;
+    height: 29px;
+    text-align: center;
+    width: 177px;
+    position: relative;
+    top: 7px;
+}
+
+.urundetay .chat{
+    height: 94px;
+}
+
+.urundetay .chat #chat{
+    right: 53px;
+    bottom: 5px;
+}
+
+.urundetay .chat img{
+    top: 25px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.urundetay .chat input{
+    border-radius: 30px;
+    width: 310px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0E3;
+    position: relative;
+    bottom: 31px;
+    left: 79px;
+}
+
+
+/*iletisim (bitiş)*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.urunekleme .container{
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 450px;
+    height: 1370px;
+    background:#F2F2F2;    
+}
+
+.urunekleme header h2{
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}
+
+.urunekleme header p{
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    font-size: 22px;
+}
+
+.urunekleme .alt-yazi{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 27px;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.urunekleme .katagori .ust-yazi{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.urunekleme .katagori select{
+    position: relative;
+    bottom: 15px;
+    margin-left: 15px;
+    font-size: 19px;
+    color: #515C6F;
+    font-family: 'Roboto', sans-serif;
+    width: 420px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.urunekleme .baslik{
+    margin-left: 15px;
+}
+
+.urunekleme .baslik input{
+    font-size: 19px;
+    color: #515C6F;
+    font-family: 'Roboto', sans-serif;
+    width: 420px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+}
+
+.urunekleme .alt-yazi2{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 15px;
+    font-size: 15px;
+    position: relative;
+    bottom: 3px;
+}
+
+.urunekleme .fiyat{
+    margin-left: 15px;
+}
+
+.urunekleme .fiyat input{
+    font-size: 19px;
+    color: #515C6F;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+}
+
+.urunekleme .durum p{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 420px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+    background: #FFFFFF;   
+}
+
+.urunekleme .durum select{
+    margin-left: 15px;
+    font-size: 19px;
+    color: #515C6F;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.urunekleme span{
+    color: red;
+}
+
+.urunekleme .durum button{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 13px;
+    background: #FFFFFF;  
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
+.urunekleme .durum .ikinci{
+  position: relative;
+}
+
+.urunekleme .durum button:hover{
+    color: white;
+    background: #FF7851;
+    cursor: pointer;
+}
+
+.urunekleme .aciklama{
+    margin-left: 15px;
+}
+
+.urunekleme .aciklama input{
+    font-size: 19px;
+    color: #515C6F;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 150px;
+    border: none;
+    border-radius: 13px;
+}
+
+.urunekleme .fotograf{
+    position: relative;
+    left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.urunekleme .fotograf h2{
+    margin-bottom: -24px;
+    font-size: 30px;
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}
+
+.urunekleme .fotolar{
+    padding-right: 57px;
+    position: relative;
+    top: 48px;
+    left: 15px;
+}
+
+.urunekleme .kapatici{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    top: 0px;
+    position: absolute;
+    width: 98px;
+    height: 32px;
+    background: white;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.urunekleme .kapak{
+    left: 0.5px;
+    align-items: center;
+    text-align: center;
+    top: 50.1px;
+    height: 27px;
+    width: 98.8px;
+    position: absolute;
+    background: #FF7851;
+    color: #FFFFFF;
+    border-radius: 13px;
+}
+
+.urunekleme .fotolar #thumbs{
+    border-radius: 13px;
+}
+
+.urunekleme .fotolar #thumbs img{
+    position: relative;
+    bottom: 119px;
+    
+    margin-right: 30px;
+    border-radius: 13px;
+}
+
+.urunekleme .alt-yazi3 p{
+    font-family: 'Roboto', sans-serif;
+    color: #515C6F; 
+    width: 400px;
+}
+
+.urunekleme .alt-yazi3{
+    right: 35px;
+    position: absolute;
+    top: 275px;
+}
+
+.urunekleme footer{
+    position: relative;
+    top: 69px;
+    left: 32px;
+}
+
+.urunekleme footer button{
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.urunekleme footer button img{
+    float: right;
+}
+
+.urunekleme .ucret{
+    position: relative;
+    left: 350px;
+    bottom: 129px;
+    display: inline-block;
+}
+
+.urunekleme .ucret p{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 116px;
+    top: 30px;
+    font-size: 18px;
+}
+
+.urunekleme .fotolar input{       
+    border: 1px solid #C7C7C7;                                                  
+    background: #FFFFFF;
+    opacity: 1;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 25px;
+    background-image: url("images/icon4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.urunekleme .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .urunekleme  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .urunekleme .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .urunekleme   .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .urunekleme  input:checked + .slider {
+    background-color: #FF7D5A;
+  }
+  
+  .urunekleme  input:focus + .slider {
+    box-shadow: 0 0 1px #FF7D5A;
+  }
+  
+  .urunekleme  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .urunekleme .slider.round {
+    border-radius: 34px;
+  }
+  
+  .urunekleme .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .yok p,span,h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.yok .container{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 414px;
+    height: 735px;
+    background: #F2F2F2;
+}
+
+.yok header{ 
+    width: 414px;
+    height: 139px;
+}
+
+.yok header img{
+    margin-top: 5px;
+}
+
+.yok header .yazi{
+    bottom: 137px;
+    left: 154px;
+    position: relative;
+    width: 160px;
+    height: 110px;
+}
+
+.yok header .yazi h3{
+    bottom: 18px;
+    position: relative;
+    color: #515C6F;
+    font-size: 25px;
+}
+
+.yok header .yazi p{
+    bottom: 32px;
+    position: relative;
+    color: #515C6F;
+    font-size: 15px;
+}
+
+.yok header .yazi .buton{
+    bottom: 36px;
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 138px;
+    height: 30px;
+    border: 1px solid #727C8E;
+}
+
+.yok header .yazi .buton span{
+    top: 4px;
+    position: relative;
+    color: #727C8E;
+    font-size: 12px;
+}
+
+.yok .secenekler{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    width: 414px;
+    height: 44px;
+}
+
+.yok .secenekler p{
+    bottom: 11px;
+    position: relative;
+    display: inline-block;
+    color: #AAAAAA;
+    font-size: 20px;
+}
+
+.yok .secenekler p:hover{
+    cursor: pointer;
+    color: #515C6F;
+}
+
+.yok footer{
+    margin-top: 80px;
+    margin-left: 31px;
+    height: 350px;
+    width: 350px;
+}
+
+.yok footer .icon{
+    margin-left: 120px;
+}
+
+.yok footer .yazilar{
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    height: 115px;
+}
+
+.yok footer h3{
+    font-size: 20px;
+    color: #FF7D5A;
+}
+
+.yok footer p{
+    font-size: 18px;
+    color: #555555;
+}
+
+.yok footer button{
+    top: 22px;
+    left: 10px;
+    cursor: pointer;
+    height: 46px;
+    width: 330px;
+    background: #FF7D5A;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.yok footer button img{
+    bottom: 31px;
+    position: relative;
+    float: right;
+}
+
+.yok footer button .butonp{
+    color: #FCFCFC;
+    font-size: 12px;
+}
+
+.yok .urun{
+    border-radius: 10px;
+    margin-left: 8.5px;
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 193px;
+    height: 264px;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  .yok  .urun img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .yok .urun .p{
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #515C6F;
+  }
+  
+  .yok  .urun span{
+    position: relative;
+    top: -34px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #FF7D5A;
+  }
+  
+  .yok .urun .ic{
+    left: 100px;
+    bottom: 40px;
+    position: relative;
+    background: #FF7D5A;
+    border-top-left-radius: 10px;
+    width: 93px;
+    height: 21px;
+  }
+   
+  .yok  .urun .ic .sa{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+  }
