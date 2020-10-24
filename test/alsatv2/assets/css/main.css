@@ -38,10 +38,10 @@
   }
   
   .anasayfa .secenek .ic{
-      display: inline-block;
-      position: relative;
-      bottom: 39px;
-      left: 17px;
+    display: inline-block;
+    position: relative;
+    bottom: 41px;
+    left: 15px;
   }
   
   .anasayfa .secenek p{
@@ -71,7 +71,7 @@
   
   .anasayfa .urun .p{
     position: relative;
-    bottom: 12px;
+    bottom: 33px;
     margin-left: 10px;
     font-size: 16px;
     color: #515C6F;
@@ -79,7 +79,6 @@
   
   .anasayfa .urun span{
     position: relative;
-    top: 14px;
     margin-left: 10px;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -88,7 +87,7 @@
   
   .anasayfa .urun .ic{
     left: 100px;
-    bottom: 21px;
+    bottom: 25px;
     position: relative;
     background: #FF7D5A;
     border-top-left-radius: 10px;
@@ -98,9 +97,11 @@
   
   
   .anasayfa .urun .ic .sa{
+    position: relative;
     font-size: 15px;
     color: #FFFFFF;
     text-align: center;
+    bottom: 13px;
   }
   
   .anasayfa p{
@@ -725,7 +726,7 @@
 }
 
 .mesajlar header .img{
-    background-image: url("foto8.png");
+    background-image: url("assets/img/foto8.png");
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -2206,7 +2207,7 @@
     border-top-right-radius: 13px;
     top: 0px;
     position: absolute;
-    width: 98px;
+    width: 100px;
     height: 32px;
     background: white;
     margin-left: 1px;
