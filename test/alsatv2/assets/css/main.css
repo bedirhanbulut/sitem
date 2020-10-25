@@ -1,3 +1,7 @@
+a{
+    text-decoration:none
+}
+
 .anasayfa .container{
     margin: 0 auto;
     padding: 0;
@@ -612,6 +616,7 @@
 }
 
 .filtrek button span{
+    color: white;
     bottom: 3px;
     position: relative;
     font-size: 16px;
@@ -680,17 +685,6 @@
     margin-top: 72px;
 }
 
-.menukatagoriler .alt{
-    height: 25px;
-}
-
-.menukatagoriler .alt img{
-    position: relative;
-    margin-right: 30px;
-    top: 17px;
-    left: 19px;
-}
-
 
 
 
@@ -725,10 +719,7 @@
     background: #FFFFFF;
 }
 
-.mesajlar header .img{
-    background-image: url("assets/img/foto8.png");
-    background-position: center;
-    background-repeat: no-repeat;
+.mesajlar header .img img{
     display: inline-block;
     width: 40px;
     height: 47px;
@@ -742,16 +733,16 @@
 }
 
 .mesajlar header div p{
-    bottom: 85px;
-    left: 58px;
+    bottom: 103px;
+    left: 67px;
     position: relative;
     font-size: 13px;
     color: #B1B6BD;
 }
 
 .mesajlar header div h5{
-    bottom: 65px;
-    left: 58px;
+    bottom: 76px;
+    left: 66px;
     position: relative;
     font-size: 14px;
     color: #555555;
@@ -781,8 +772,9 @@
 
 .mesajlar .yazma .yazi .foto img{
     position: relative;
-    left: 37px;
-    top: 34px;}
+    left: 20px;
+    top: 22px;
+}
 
     .mesajlar .yazma .hazir{
     height: 43px;
@@ -1653,9 +1645,7 @@
 }
 
 .succes button span{
-    position: relative;
-    top: 6px;
-    left: 7px;
+   color: white;
 }
 
 
@@ -2214,13 +2204,13 @@
     margin-top: 1px;
 }
 
-.urunekleme .kapak{
+.urunekleme .kapak {
     left: 0.5px;
     align-items: center;
     text-align: center;
-    top: 50.1px;
+    top: 52.1px;
     height: 27px;
-    width: 98.8px;
+    width: 100px;
     position: absolute;
     background: #FF7851;
     color: #FFFFFF;
@@ -2284,8 +2274,8 @@
 .urunekleme .ucret p{
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    right: 116px;
-    top: 30px;
+    right: 337px;
+    top: 107px;
     font-size: 18px;
 }
 
