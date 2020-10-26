@@ -856,6 +856,8 @@ a{
 }
 
 .profil header{ 
+    bottom: 13px;
+    position: relative;
     width: 414px;
     height: 139px;
 }
@@ -880,7 +882,7 @@ a{
 }
 
 .profil header .yazi p{
-    bottom: 32px;
+    bottom: 46px;
     position: relative;
     color: #515C6F;
     font-size: 15px;
@@ -968,7 +970,6 @@ a{
 }
 
 .profil footer button img{
-    bottom: 31px;
     position: relative;
     float: right;
 }
@@ -997,7 +998,7 @@ a{
   
   .profil  .urun .p{
     position: relative;
-    bottom: 40px;
+    bottom: 30px;
     margin-left: 10px;
     font-size: 16px;
     color: #515C6F;
@@ -1005,8 +1006,7 @@ a{
   
   .profil  .urun span{
     position: relative;
-    top: -34px;
-    margin-left: 10px;
+    top: 21px;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     color: #FF7D5A;
@@ -1014,7 +1014,7 @@ a{
   
   .profil  .urun .ic{
     left: 100px;
-    bottom: 40px;
+    bottom: 25px;
     position: relative;
     background: #FF7D5A;
     border-top-left-radius: 10px;
@@ -1023,9 +1023,10 @@ a{
   }
    
   .profil  .urun .ic .sa{
+    position: relative;
+    bottom: 14px;
     font-size: 15px;
     color: #FFFFFF;
-    text-align: center;
   }
 
 
@@ -2391,6 +2392,8 @@ a{
 }
 
 .yok header{ 
+    bottom: 13px;
+    position: relative;
     width: 414px;
     height: 139px;
 }
@@ -2415,7 +2418,7 @@ a{
 }
 
 .yok header .yazi p{
-    bottom: 32px;
+    bottom: 46px;
     position: relative;
     color: #515C6F;
     font-size: 15px;
@@ -2503,7 +2506,7 @@ a{
 }
 
 .yok footer button img{
-    bottom: 31px;
+    top: 4px;
     position: relative;
     float: right;
 }
