@@ -58,7 +58,7 @@ a{
   
   .anasayfa .urun{
     border-radius: 10px;
-    margin-left: 8.5px;
+    margin-left: 9.5px;
     float: left;
     display: inline-block;
     margin-top: 10px;
@@ -2056,12 +2056,13 @@ a{
 
 .urunekleme .katagori select{
     position: relative;
+    background: white;
     bottom: 15px;
     margin-left: 15px;
     font-size: 19px;
     color: #515C6F;
     font-family: 'Roboto', sans-serif;
-    width: 420px;
+    width: 94%;
     height: 45px;
     border: none;
     border-radius: 13px;
@@ -2076,7 +2077,7 @@ a{
     font-size: 19px;
     color: #515C6F;
     font-family: 'Roboto', sans-serif;
-    width: 420px;
+    width: 94%;
     height: 45px;
     border: none;
     border-radius: 13px;
@@ -2110,7 +2111,7 @@ a{
     color: #515C6F;
     margin-left: 15px;
     font-size: 20px;
-    width: 420px;
+    width: 94%;
     height: 45px;
     border: none;
     border-radius: 13px;
@@ -2165,7 +2166,7 @@ a{
     font-size: 19px;
     color: #515C6F;
     font-family: 'Roboto', sans-serif;
-    width: 400px;
+    width: 94%;
     height: 150px;
     border: none;
     border-radius: 13px;
@@ -2251,7 +2252,7 @@ a{
 .urunekleme footer button{
     cursor: pointer;
     height: 46px;
-    width: 330px;
+    width: 73%;
     background: #FF7D5A;
     border-radius: 25px;
     position: relative;
@@ -2287,10 +2288,13 @@ a{
     color: black;
     cursor: pointer;
     margin-bottom: 25px;
-    background-image: url("images/icon4.png");
     background-repeat: no-repeat;
     background-position: center;
+    width: 100px;
+    height: 94px;
+    border-radius: 13px;
 }
+
 
 
 
